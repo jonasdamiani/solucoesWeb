@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #screen {
+    border: 2px solid rgb(121, 35, 233);
+    margin: 0 auto;
+    width: 32%;
+    min-width: 460px;
+    margin-top: 4px;
+  }
+  
+  h2 {
+    font: 21px sans-serif;
+    font-weight: bold;
+    color: rgb(121, 35, 233);
+    border-bottom: 2px solid rgb(121, 35, 233);
+    padding: 8px;
+  }
+  
+  .userview {
+    margin: 8px;
+    border: 1px solid black;
+    max-height: 290px;
+    overflow: auto;
+    font: 13px Helvetica;
+  }
+  
+  .userview .usernet {
+    margin: 9px;
+    text-align: left;
+  }
+  
+  .userview .usernet .user {
+    font-weight: bold;
+  }
+  
+  .userview .usernet .userchat {
+    display: inline-block;
+    border: 1px solid rgb(121, 35, 233);
+    border-radius: 4px;
+    padding: 3px 4px;
+  }
+  
+  .userview .local {
+    text-align: right;
+  }
+  
+  #screen form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+  
+  input {
+    display: block;
+    font-size: 14px;
+    padding: 8px 4px;
+    width: 100%;
+    border: 1px solid rgb(121, 35, 233);
+    border-radius: 8px;
+  }
+  
+  #screen form input {
+    flex: 1;
+    margin-right: 7px;
+  }
+  
+  button {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(121, 35, 233);
+    padding: 9px 8px;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: grey;
+    color: rgb(121, 35, 233);
+  }
